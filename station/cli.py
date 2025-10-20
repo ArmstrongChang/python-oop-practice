@@ -12,6 +12,8 @@ from typing import Any, Dict, List
 from station.sensors import MockTemperatureSensor
 from station.test_items import TemperatureLimitTest
 
+
+## terminal: python -m station.cli --device-id MFG-001 --iterations 3
 def main() -> None:
     # 1) 解析命令列參數
     parser = argparse.ArgumentParser(description="Run a simple manufacturing test sequence.")
